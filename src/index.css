@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.counter {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.counter__number {
+  border: 2px solid #000;
+  border-radius: 3px;
+  width: 500px;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.counter__status {
+  border: 2px solid #000;
+  border-radius: 3px;
+  width: 500px;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.counter__btns {
+  width: 550px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.counter__btn {
+  height: 50px;
+  width: 100px;
+  cursor: pointer;
+}
